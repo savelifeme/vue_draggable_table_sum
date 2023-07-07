@@ -275,6 +275,7 @@ export default {
             );
         },
         _renderChildren() {
+            if (!this.$slots.default) return;
             this.$slots.default[0].className = '123';
             return (
                 this.$slots.default.map((item, index) => {

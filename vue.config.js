@@ -1,6 +1,7 @@
 console.log(process.env.NODE_ENV);
 
 module.exports = {
+    lintOnSave:false,
     pages: {
         index: {
             entry: 'src/examples/main.js',

@@ -8,7 +8,6 @@
   height: 100vh;
   width: 100%;
   cursor: move;
-  border: 1px solid red;
   position: relative;
 }
 .dragable-container .item {
